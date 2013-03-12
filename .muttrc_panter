@@ -1,0 +1,94 @@
+set imap_user = "aml@panter.ch"
+set smtp_url = "smtp://aml@panter.ch@smtp.gmail.com:587/"
+source .muttrc_panter_pwds
+set from = "Alain M. Lafon <aml@gmail.com>"
+set envelope_from=yes
+set use_from=yes
+set realname = "Alain M. Lafon"
+
+# Change the following line to a different editor you prefer.
+set editor = "vim"
+
+# Display download progress every 20K
+set net_inc=20
+
+# Fuzzy threading.
+set nostrict_threads
+
+# COMPOSING
+# Include the message in replies.
+set include
+
+# Keep copies of outgoing mail
+set copy
+
+set charset="utf-8"
+set mime_forward
+
+# HEADERS
+ignore *
+
+# Un-ignore the wanted headers
+unignore From: To: Reply-To: Subject: Date: CC: BCC:
+unignore Mail-Followup-To: Organization: Newsgroups:
+unignore X-Mailer: User-Agent:
+unignore X-Junked-Because: X-SpamProbe: X-Virus-hagbard:
+
+# Order the visable header lines
+hdr_order From: Subject: To: CC: BCC: Reply-To: Mail-Followup-To: Date: Organization: User-Agent: X-Mailer:
+
+# Sort threads by date received.
+set sort_aux=date-received
+
+
+# Check for new mail
+set header_cache=~/.mutt/panter_cache/headers
+set imap_check_subscribed
+set mail_check=60
+set timeout=10
+
+# Basic config, you can leave this as is
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set imap_check_subscribed
+set hostname = gmail.com
+set mail_check = 120
+set timeout = 300
+set imap_keepalive = 300
+set postponed="+[Gmail]/Drafts"
+set record="+[Gmail]/Sent Mail"
+set message_cachedir=~/.mutt/panter_cache/bodies
+set certificate_file=~/.mutt/certificates
+set move = no
+set sort = 'threads'
+auto_view text/html
+bind editor <Tab> complete-query
+bind editor ^T complete
+bind editor <space> noop
+
+# Gmail-style keyboard shortcuts
+macro index,pager d "<enter-command>set trash=\"imaps://imap.googlemail.com/[GMail]/Bin\"\n <delete-message>" "Gmail delete message"
+macro index,pager gi "<change-folder>=INBOX<enter>" "Go to inbox"
+macro index,pager gs "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to Sent Mail"
+macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+macro index,pager ga "<change-folder>=Archive<enter>" "Go to all mail"
+
+# Show unreplied and flagged mails (i.e. TODO)
+macro index \' "l(! ~Q | ~F) ! ~D\r"  "Show TODO Mail"
+# Show all mails
+# macro index \; "l~A\r"      "Show ALL Mails"
+
+# MISC
+set nobeep
+set signature='~/.mutt/.signature_panter'
+
+# Save all mail into archive
+save-hook .* =Archive
+
+# Skip recipient and subject on reply
+set fast_reply=yes
+
+# HTML is the last option.
+alternative_order text/enriched text/plain text/html
+
+source .mutt/theme

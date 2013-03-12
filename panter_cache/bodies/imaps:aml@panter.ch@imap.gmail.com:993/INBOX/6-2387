@@ -1,0 +1,124 @@
+Delivered-To: aml@panter.ch
+Received: by 10.42.154.9 with SMTP id o9csp92370icw;
+        Mon, 11 Mar 2013 16:35:24 -0700 (PDT)
+X-Received: by 10.14.223.199 with SMTP id v47mr41292201eep.18.1363044924110;
+        Mon, 11 Mar 2013 16:35:24 -0700 (PDT)
+Return-Path: <all+bncBDBZLIPXUUORBO6U7GEQKGQEB2XR2GQ@panter.ch>
+Received: from mail-ea0-x247.google.com ([2a00:1450:4013:c01::247])
+        by mx.google.com with ESMTPS id r44si31337823eeo.63.2013.03.11.16.35.23
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 11 Mar 2013 16:35:23 -0700 (PDT)
+Received-SPF: neutral (google.com: 2a00:1450:4013:c01::247 is neither permitted nor denied by best guess record for domain of all+bncBDBZLIPXUUORBO6U7GEQKGQEB2XR2GQ@panter.ch) client-ip=2a00:1450:4013:c01::247;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 2a00:1450:4013:c01::247 is neither permitted nor denied by best guess record for domain of all+bncBDBZLIPXUUORBO6U7GEQKGQEB2XR2GQ@panter.ch) smtp.mail=all+bncBDBZLIPXUUORBO6U7GEQKGQEB2XR2GQ@panter.ch
+Received: by mail-ea0-f199.google.com with SMTP id b15sf4523015eae.2
+        for <aml@panter.ch>; Mon, 11 Mar 2013 16:35:23 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-received:x-beenthere:x-received:received-spf:x-received
+         :mime-version:subject:from:in-reply-to:date:message-id:references:to
+         :x-mailer:x-gm-message-state:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :x-google-group-id:list-post:list-help:list-archive:list-unsubscribe
+         :content-type:content-transfer-encoding;
+        bh=MwLokPwltXOlGkWAiMkavc1ra8WXwP2pOjh75vR0sC0=;
+        b=a3E67S4b2jVG2nOMMN+vrEQ3WoTOiGjst3SLf8Y0wCrncDb5QQtsAvLRrjygxzUrdp
+         ZRP0lwQsM10syahnghyc+VJUrPZWENFsIZC/Xk4oO2nSQMK0kTs+UB6UN7Il50lBYDDF
+         uQ0NSF93ryDsn9r/bwBAdqoh4okt3KxlUQcPDXGz6xI12TxN3al4OP7rUZcacBWCH77U
+         a8rVO/xXNP0JK9bRXapQp7wsHq9+O77KNooyZKV3guO4KiM1+D1SEYf0TvX/IVGfrUsK
+         1EDFaW2WKlN4EtTjyoXkDkJ4BCTtsCM60rhi5BDstZByUm3686dwNtFg5NwhUJlf3kyM
+         U3vQ==
+X-Received: by 10.180.76.235 with SMTP id n11mr2904756wiw.0.1363044923448;
+        Mon, 11 Mar 2013 16:35:23 -0700 (PDT)
+X-BeenThere: all@panter.ch
+Received: by 10.180.92.195 with SMTP id co3ls738071wib.44.gmail; Mon, 11 Mar
+ 2013 16:35:23 -0700 (PDT)
+X-Received: by 10.14.211.65 with SMTP id v41mr41210031eeo.33.1363044923143;
+        Mon, 11 Mar 2013 16:35:23 -0700 (PDT)
+Received: from mail-ee0-f54.google.com (mail-ee0-f54.google.com [74.125.83.54])
+        by mx.google.com with ESMTPS id t43si22089692eeg.218.2013.03.11.16.35.22
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 11 Mar 2013 16:35:22 -0700 (PDT)
+Received-SPF: neutral (google.com: 74.125.83.54 is neither permitted nor denied by best guess record for domain of geo@panter.ch) client-ip=74.125.83.54;
+Received: by mail-ee0-f54.google.com with SMTP id c41so2531312eek.13
+        for <all@panter.ch>; Mon, 11 Mar 2013 16:35:22 -0700 (PDT)
+X-Received: by 10.14.219.129 with SMTP id m1mr36048795eep.16.1363044922376;
+        Mon, 11 Mar 2013 16:35:22 -0700 (PDT)
+Received: from [192.168.43.225] ([188.73.252.9])
+        by mx.google.com with ESMTPS id f47sm26343377eep.13.2013.03.11.16.35.19
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Mon, 11 Mar 2013 16:35:20 -0700 (PDT)
+Mime-Version: 1.0 (Mac OS X Mail 6.2 \(1499\))
+Subject: Re: FYI: JSZurich - HTML5 games tech - Tue, March 26th 2013, 19:30 - 22:00
+From: Georgios Kontoleon <geo@panter.ch>
+In-Reply-To: <CAGygqQAYtaOa0oOVZXHqKL=nxdDcO8_1QfraBntwO_8uK-VVjw@mail.gmail.com>
+Date: Tue, 12 Mar 2013 01:35:17 +0200
+Message-Id: <A5B353E2-4F64-4F21-85E2-A2750E5EEFB2@panter.ch>
+References: <CABe74rP1h62s65r-Cdb4GP-O7=qgZk8-ouN+Qj7yjNn+OAVBEA@mail.gmail.com> <CAGygqQAYtaOa0oOVZXHqKL=nxdDcO8_1QfraBntwO_8uK-VVjw@mail.gmail.com>
+To: Alle <all@panter.ch>
+X-Mailer: Apple Mail (2.1499)
+X-Gm-Message-State: ALoCoQkNXTdtq64SaNCWiVXAHKEA5a3J09XyrvA6L8ttO6b34nUYvIko24yc7K9f65KJlaf4hX2v
+X-Original-Sender: geo@panter.ch
+X-Original-Authentication-Results: mx.google.com;       spf=neutral
+ (google.com: 74.125.83.54 is neither permitted nor denied by best guess
+ record for domain of geo@panter.ch) smtp.mail=geo@panter.ch
+Precedence: list
+Mailing-list: list all@panter.ch; contact all+owners@panter.ch
+List-ID: <all.panter.ch>
+X-Google-Group-Id: 342312047743
+List-Post: <http://groups.google.com/a/panter.ch/group/all/post?hl=en_US>, <mailto:all@panter.ch>
+List-Help: <http://support.google.com/a/panter.ch/bin/topic.py?hl=en_US&topic=25838>,
+ <mailto:all+help@panter.ch>
+List-Archive: <http://groups.google.com/a/panter.ch/group/all/?hl=en_US>
+List-Unsubscribe: <http://groups.google.com/a/panter.ch/group/all/subscribe?hl=en_US>,
+ <mailto:googlegroups-manage+342312047743+unsubscribe@googlegroups.com>
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: quoted-printable
+
+btw. der ist heute(morgen)=85, auch noch interessant evtl.
+
+http://techup.ch/978/webtuesday-responsive-design
+
+
+
+On 11. Mar,2013, at 22:54 , Beat Seeliger <seb@panter.ch> wrote:
+
+> Tolles Thema und Speaker. Auch wenn Games nicht unser Business sind, =
+kann uns das Know How weiterbringen: viele unsere Apps setzen Eye Candy =
+oder Echtzeit Reaktionen ein. Ausserdem kann Know How =FCber den =
+aktuellen Stand helfen bei der Entscheidung Browser oder Nativ-App.
+>=20
+> Leider ist an dem Abend auch ein Panter Event (Pitchbang).
+>=20
+> On Monday, March 11, 2013, Martin M=E4chler wrote:
+>=20
+> Jasmine Kent (@jareiko) will give an overview of the state of the art =
+in HTML5 games, and discuss techniques and performance tips learned from =
+working on Trigger Rally. Topics will include canvas, WebGL, Web Audio, =
+WebRTC and the Gamepad API.
+>=20
+> Jasmine is an independent game developer from the UK with a background =
+in PS3 & Xbox 360 development. She has previously worked at SEGA and =
+Google, and is very excited about what's becoming possible on the =
+plugin-free Web.
+>=20
+> JSZurich - HTML5 games tech
+>=20
+> Tue, March 26th 2013, 19:30 - 22:00
+> M=FChlemann & Popp, Z=E4hringerstr. 51, 8001 Z=FCrich
+>=20
+> http://techup.ch/1008/jszurich-html5-games-tech
+>=20
+>=20
+> [ +41 78 909 92 89 | maa@panter.ch | skype:damaaa ]
+>=20
+>=20
+>=20
+> --=20
+> Mit freundlichen Gruessen
+> Beat Seeliger
+> --
+> Panter AG
+> http://www.panter.ch
+>=20
+
